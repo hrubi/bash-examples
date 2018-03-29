@@ -3,7 +3,16 @@
 Things I found new, unexpected, interesting or even amusing when dwelling into
 the bash documentation.
 
-Verify the examples with cram:
+
+## Test
+
+Verify the examples are correct with:
 ```
-cram *.t
+make test
 ```
+
+
+## Dependencies
+
+* make
+* cram
