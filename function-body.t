@@ -9,9 +9,9 @@ conditional expression
   $ bool_func y
   [1]
 
-subshell - need parentheses after func name
+subshell - required parentheses after func name (function keyword optional)
 
-  $ subshell_func() (
+  $ function subshell_func() (
   >   export a=1
   >   echo "$a"
   > )
