@@ -14,6 +14,7 @@ make test
 
 ## Dependencies
 
+* bash
 * make
 * cram
 * perl
