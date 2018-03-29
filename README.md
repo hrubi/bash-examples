@@ -16,3 +16,4 @@ make test
 
 * make
 * cram
+* perl
