@@ -1,7 +1,7 @@
 $$ expands to current shell PID, not the subshell
 
-  $ current_pid=$$
+  $ parent_pid=$$
   $ (
   >   [[ $$ = $current_pid ]] ||
-  >   printf -- "subshell: %s current: %s\n" "$$" "$current_pid"
+  >   printf -- "subshell: %s parent: %s\n" "$$" "$parent_pid"
   > )
